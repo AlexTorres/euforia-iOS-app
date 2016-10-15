@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37F67520BEA7AA04C824356F /* Pods_Euphoria.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A123E2C687A4DC1C22930FED /* Pods_Euphoria.framework */; };
+		6D7F82F3CC0B80F47BABC954 /* Pods_EuphoriaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E50506416EA83DF2AA0CD3 /* Pods_EuphoriaTests.framework */; };
+		EB7B94570469DFA2FDE032A8 /* Pods_EuphoriaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE595E281505791B2CBA2FE /* Pods_EuphoriaUITests.framework */; };
 		FAC197961DB2CC43004C4C71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC197951DB2CC43004C4C71 /* AppDelegate.swift */; };
 		FAC197981DB2CC43004C4C71 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC197971DB2CC43004C4C71 /* FirstViewController.swift */; };
 		FAC1979A1DB2CC43004C4C71 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC197991DB2CC43004C4C71 /* SecondViewController.swift */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004440856213C20F73224E13 /* Pods-EuphoriaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuphoriaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EuphoriaUITests/Pods-EuphoriaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2CF8CB0BE6D3CCD732F79FFC /* Pods-EuphoriaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuphoriaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EuphoriaTests/Pods-EuphoriaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		37E50506416EA83DF2AA0CD3 /* Pods_EuphoriaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EuphoriaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A34EE5241ED164BC94F6B66 /* Pods-EuphoriaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuphoriaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EuphoriaUITests/Pods-EuphoriaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4CE595E281505791B2CBA2FE /* Pods_EuphoriaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EuphoriaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6705194183A8850898482663 /* Pods-EuphoriaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuphoriaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EuphoriaTests/Pods-EuphoriaTests.release.xcconfig"; sourceTree = "<group>"; };
+		9AA23F0183ABF9ACD99F35AF /* Pods-Euphoria.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Euphoria.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Euphoria/Pods-Euphoria.debug.xcconfig"; sourceTree = "<group>"; };
+		A123E2C687A4DC1C22930FED /* Pods_Euphoria.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Euphoria.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDB5530380BFCA75E0935F2 /* Pods-Euphoria.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Euphoria.release.xcconfig"; path = "Pods/Target Support Files/Pods-Euphoria/Pods-Euphoria.release.xcconfig"; sourceTree = "<group>"; };
 		FAC197921DB2CC43004C4C71 /* Euphoria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Euphoria.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC197951DB2CC43004C4C71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC197971DB2CC43004C4C71 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F67520BEA7AA04C824356F /* Pods_Euphoria.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D7F82F3CC0B80F47BABC954 /* Pods_EuphoriaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB7B94570469DFA2FDE032A8 /* Pods_EuphoriaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27B4357061B847874BB473A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AA23F0183ABF9ACD99F35AF /* Pods-Euphoria.debug.xcconfig */,
+				ADDB5530380BFCA75E0935F2 /* Pods-Euphoria.release.xcconfig */,
+				2CF8CB0BE6D3CCD732F79FFC /* Pods-EuphoriaTests.debug.xcconfig */,
+				6705194183A8850898482663 /* Pods-EuphoriaTests.release.xcconfig */,
+				4A34EE5241ED164BC94F6B66 /* Pods-EuphoriaUITests.debug.xcconfig */,
+				004440856213C20F73224E13 /* Pods-EuphoriaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED01361B0FBC123E0CBFDB16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A123E2C687A4DC1C22930FED /* Pods_Euphoria.framework */,
+				37E50506416EA83DF2AA0CD3 /* Pods_EuphoriaTests.framework */,
+				4CE595E281505791B2CBA2FE /* Pods_EuphoriaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FAC197891DB2CC43004C4C71 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				FAC197AB1DB2CC43004C4C71 /* EuphoriaTests */,
 				FAC197B61DB2CC43004C4C71 /* EuphoriaUITests */,
 				FAC197931DB2CC43004C4C71 /* Products */,
+				27B4357061B847874BB473A8 /* Pods */,
+				ED01361B0FBC123E0CBFDB16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAC197BC1DB2CC43004C4C71 /* Build configuration list for PBXNativeTarget "Euphoria" */;
 			buildPhases = (
+				3C0E8A39209439EC3C311D2D /* [CP] Check Pods Manifest.lock */,
 				FAC1978E1DB2CC43004C4C71 /* Sources */,
 				FAC1978F1DB2CC43004C4C71 /* Frameworks */,
 				FAC197901DB2CC43004C4C71 /* Resources */,
+				89A5CD0727D7A6A6AC9A1B4A /* [CP] Embed Pods Frameworks */,
+				D648F00126010C84C4333EE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAC197BF1DB2CC43004C4C71 /* Build configuration list for PBXNativeTarget "EuphoriaTests" */;
 			buildPhases = (
+				F45FEAA472C247966163879C /* [CP] Check Pods Manifest.lock */,
 				FAC197A41DB2CC43004C4C71 /* Sources */,
 				FAC197A51DB2CC43004C4C71 /* Frameworks */,
 				FAC197A61DB2CC43004C4C71 /* Resources */,
+				747B9D7EED55510DC02EA004 /* [CP] Embed Pods Frameworks */,
+				5E40A633A9A63D9F5B2B6AE6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FAC197C21DB2CC43004C4C71 /* Build configuration list for PBXNativeTarget "EuphoriaUITests" */;
 			buildPhases = (
+				A29B34F6D400CB4C98AE95E9 /* [CP] Check Pods Manifest.lock */,
 				FAC197AF1DB2CC43004C4C71 /* Sources */,
 				FAC197B01DB2CC43004C4C71 /* Frameworks */,
 				FAC197B11DB2CC43004C4C71 /* Resources */,
+				3D4181BE6150D90BBA7079F0 /* [CP] Embed Pods Frameworks */,
+				D71C502F6038F7C2AE73641C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +305,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C0E8A39209439EC3C311D2D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D4181BE6150D90BBA7079F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EuphoriaUITests/Pods-EuphoriaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E40A633A9A63D9F5B2B6AE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EuphoriaTests/Pods-EuphoriaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		747B9D7EED55510DC02EA004 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EuphoriaTests/Pods-EuphoriaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89A5CD0727D7A6A6AC9A1B4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Euphoria/Pods-Euphoria-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A29B34F6D400CB4C98AE95E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D648F00126010C84C4333EE6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Euphoria/Pods-Euphoria-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D71C502F6038F7C2AE73641C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EuphoriaUITests/Pods-EuphoriaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F45FEAA472C247966163879C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FAC1978E1DB2CC43004C4C71 /* Sources */ = {
@@ -412,6 +599,7 @@
 		};
 		FAC197BD1DB2CC43004C4C71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AA23F0183ABF9ACD99F35AF /* Pods-Euphoria.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Euphoria/Info.plist;
@@ -424,6 +612,7 @@
 		};
 		FAC197BE1DB2CC43004C4C71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDB5530380BFCA75E0935F2 /* Pods-Euphoria.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Euphoria/Info.plist;
@@ -436,6 +625,7 @@
 		};
 		FAC197C01DB2CC43004C4C71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF8CB0BE6D3CCD732F79FFC /* Pods-EuphoriaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +640,7 @@
 		};
 		FAC197C11DB2CC43004C4C71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6705194183A8850898482663 /* Pods-EuphoriaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +655,7 @@
 		};
 		FAC197C31DB2CC43004C4C71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A34EE5241ED164BC94F6B66 /* Pods-EuphoriaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = EuphoriaUITests/Info.plist;
@@ -477,6 +669,7 @@
 		};
 		FAC197C41DB2CC43004C4C71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 004440856213C20F73224E13 /* Pods-EuphoriaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = EuphoriaUITests/Info.plist;
@@ -507,6 +700,7 @@
 				FAC197BE1DB2CC43004C4C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAC197BF1DB2CC43004C4C71 /* Build configuration list for PBXNativeTarget "EuphoriaTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +709,7 @@
 				FAC197C11DB2CC43004C4C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAC197C21DB2CC43004C4C71 /* Build configuration list for PBXNativeTarget "EuphoriaUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +718,7 @@
 				FAC197C41DB2CC43004C4C71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
