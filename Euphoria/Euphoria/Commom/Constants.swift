@@ -17,7 +17,9 @@ struct Constans {
       static let questions = "questions"
     }
   }
-  
+  struct GoogleKeys {
+    static let maps = "AIzaSyCrNYgJVuH2qnG4-vy10bpVPs4RaI32-4A"
+  }
   struct FileExtension {
     static let plist = "plist"
   }

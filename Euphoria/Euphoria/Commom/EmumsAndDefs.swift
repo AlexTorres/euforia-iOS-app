@@ -8,9 +8,9 @@
 
 import Foundation
 
-typealias Failture = NSError? -> Void
-typealias Completion = AnyObject? -> Void
-typealias CompletionWasSussecfull = AnyObject? -> Void
+typealias Failture = (NSError?) -> Void
+typealias Completion = (AnyObject?) -> Void
+typealias CompletionWasSussecfull = (AnyObject?) -> Void
 
 enum ConfigurationStages: String {
   case Debug, Release, Testing

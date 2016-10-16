@@ -18,6 +18,11 @@
 		FAC197A21DB2CC43004C4C71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC197A01DB2CC43004C4C71 /* LaunchScreen.storyboard */; };
 		FAC197AD1DB2CC43004C4C71 /* EuphoriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC197AC1DB2CC43004C4C71 /* EuphoriaTests.swift */; };
 		FAC197B81DB2CC43004C4C71 /* EuphoriaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC197B71DB2CC43004C4C71 /* EuphoriaUITests.swift */; };
+		FAC197D11DB4161E004C4C71 /* MapCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC197D01DB4161E004C4C71 /* MapCollectionViewCell.swift */; };
+		FAC197D61DB4218C004C4C71 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC197D41DB4218C004C4C71 /* Configuration.swift */; };
+		FAC197D71DB4218C004C4C71 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC197D51DB4218C004C4C71 /* Constants.swift */; };
+		FAC197D91DB422A0004C4C71 /* EmumsAndDefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC197D81DB422A0004C4C71 /* EmumsAndDefs.swift */; };
+		FAC197DB1DB422B4004C4C71 /* Configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAC197DA1DB422B4004C4C71 /* Configuration.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +66,11 @@
 		FAC197B31DB2CC43004C4C71 /* EuphoriaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuphoriaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC197B71DB2CC43004C4C71 /* EuphoriaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EuphoriaUITests.swift; sourceTree = "<group>"; };
 		FAC197B91DB2CC43004C4C71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC197D01DB4161E004C4C71 /* MapCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAC197D41DB4218C004C4C71 /* Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		FAC197D51DB4218C004C4C71 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FAC197D81DB422A0004C4C71 /* EmumsAndDefs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmumsAndDefs.swift; sourceTree = "<group>"; };
+		FAC197DA1DB422B4004C4C71 /* Configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Configuration.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +149,8 @@
 		FAC197941DB2CC43004C4C71 /* Euphoria */ = {
 			isa = PBXGroup;
 			children = (
+				FAC197D21DB4218C004C4C71 /* Commom */,
+				FAC197C51DB4145F004C4C71 /* Modules */,
 				FAC197951DB2CC43004C4C71 /* AppDelegate.swift */,
 				FAC197971DB2CC43004C4C71 /* FirstViewController.swift */,
 				FAC197991DB2CC43004C4C71 /* SecondViewController.swift */,
@@ -146,6 +158,7 @@
 				FAC1979E1DB2CC43004C4C71 /* Assets.xcassets */,
 				FAC197A01DB2CC43004C4C71 /* LaunchScreen.storyboard */,
 				FAC197A31DB2CC43004C4C71 /* Info.plist */,
+				FAC197DA1DB422B4004C4C71 /* Configuration.plist */,
 			);
 			path = Euphoria;
 			sourceTree = "<group>";
@@ -166,6 +179,96 @@
 				FAC197B91DB2CC43004C4C71 /* Info.plist */,
 			);
 			path = EuphoriaUITests;
+			sourceTree = "<group>";
+		};
+		FAC197C51DB4145F004C4C71 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FAC197C61DB4145F004C4C71 /* MotelList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FAC197C61DB4145F004C4C71 /* MotelList */ = {
+			isa = PBXGroup;
+			children = (
+				FAC197C71DB4145F004C4C71 /* Application Login */,
+				FAC197C91DB4145F004C4C71 /* Module Interface */,
+				FAC197CA1DB4145F004C4C71 /* User Interface */,
+			);
+			path = MotelList;
+			sourceTree = "<group>";
+		};
+		FAC197C71DB4145F004C4C71 /* Application Login */ = {
+			isa = PBXGroup;
+			children = (
+				FAC197C81DB4145F004C4C71 /* view */,
+			);
+			path = "Application Login";
+			sourceTree = "<group>";
+		};
+		FAC197C81DB4145F004C4C71 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FAC197C91DB4145F004C4C71 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		FAC197CA1DB4145F004C4C71 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				FAC197CB1DB4145F004C4C71 /* Presenter */,
+				FAC197CC1DB4145F004C4C71 /* View */,
+				FAC197CD1DB4145F004C4C71 /* Wireframe */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		FAC197CB1DB4145F004C4C71 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FAC197CC1DB4145F004C4C71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAC197D01DB4161E004C4C71 /* MapCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAC197CD1DB4145F004C4C71 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		FAC197D21DB4218C004C4C71 /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				FAC197D81DB422A0004C4C71 /* EmumsAndDefs.swift */,
+				FAC197D31DB4218C004C4C71 /* Config */,
+				FAC197D51DB4218C004C4C71 /* Constants.swift */,
+			);
+			path = Commom;
+			sourceTree = "<group>";
+		};
+		FAC197D31DB4218C004C4C71 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				FAC197D41DB4218C004C4C71 /* Configuration.swift */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC197A21DB2CC43004C4C71 /* LaunchScreen.storyboard in Resources */,
+				FAC197DB1DB422B4004C4C71 /* Configuration.plist in Resources */,
 				FAC1979F1DB2CC43004C4C71 /* Assets.xcassets in Resources */,
 				FAC1979D1DB2CC43004C4C71 /* Main.storyboard in Resources */,
 			);
@@ -449,7 +553,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC197D61DB4218C004C4C71 /* Configuration.swift in Sources */,
+				FAC197D91DB422A0004C4C71 /* EmumsAndDefs.swift in Sources */,
+				FAC197D11DB4161E004C4C71 /* MapCollectionViewCell.swift in Sources */,
 				FAC1979A1DB2CC43004C4C71 /* SecondViewController.swift in Sources */,
+				FAC197D71DB4218C004C4C71 /* Constants.swift in Sources */,
 				FAC197961DB2CC43004C4C71 /* AppDelegate.swift in Sources */,
 				FAC197981DB2CC43004C4C71 /* FirstViewController.swift in Sources */,
 			);
